@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">OPENFX</title>
+  <desc id="desc">New possibilities for the Axe-Fx II XL. NAM, new effects, and a new chapter.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0f1a1c"/><stop offset="1" stop-color="#173a35"/></linearGradient><linearGradient id="wave"><stop stop-color="#8ce5ce" stop-opacity="0"/><stop offset="1" stop-color="#8ce5ce" stop-opacity=".48"/></linearGradient></defs>
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#wave)" stroke-width="2"><path d="M610 160h75l12-14 16 30 17-56 20 91 20-130 20 173 20-203 20 218 20-214 20 179 20-133 20 85 20-49 16 23h114"/><path d="M610 182h64l22-15 20 23 20-40 22 57 21-74 20 89 20-109 20 114 20-108 20 88 22-56 20 28 20-10h119" opacity=".35"/></g>
+  <rect x="56" y="51" width="5" height="24" rx="2" fill="#8ce5ce"/>
+  <g font-family="Segoe UI,Arial,sans-serif"><text x="76" y="70" fill="#8ce5ce" font-size="17" font-weight="700" letter-spacing="4">RM2KDEV / AXE-FX II XL</text><text x="52" y="186" fill="#f0f8f5" font-size="100" font-weight="800" letter-spacing="-4">OPENFX</text><text x="58" y="230" fill="#c1d8d2" font-size="23">New possibilities for the hardware you already own.</text><text x="59" y="280" fill="#8ce5ce" font-size="14" font-weight="600" letter-spacing="3">NAM · NEW EFFECTS · A NEW CHAPTER</text></g>
+</svg>
