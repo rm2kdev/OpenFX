@@ -1,0 +1,123 @@
+{
+  "release": "OpenFX-3.00-Preview-R2",
+  "created": "2026-09-24",
+  "patches": {
+    "firmware": {
+      "roundTripExact": true,
+      "wrongSourceRejected": true
+    },
+    "editor": {
+      "roundTripExact": true,
+      "wrongSourceRejected": true
+    }
+  },
+  "converterAndEngine": {
+    "converter": {
+      "fixtures": [
+        {
+          "fixture": "Jcm800.nam",
+          "pythonByteExact": true,
+          "sysexBytes": 10905,
+          "sysexSha256": "d01a97ac55ce42a35426c819238123cdaf3990c427f8ce2d9994e7f6296da6a6",
+          "frames": 66,
+          "payloadCrcAndTransferChecksums": true,
+          "slot1And512": true
+        },
+        {
+          "fixture": "FNDR BFSR VB Edge WRM2 CAB FREE.nam",
+          "pythonByteExact": true,
+          "sysexBytes": 10905,
+          "sysexSha256": "dfc514ad48ce63ce50ceb640f46d76fdd208b0d0a2d9c75c8fc28cf9d240402c",
+          "frames": 66,
+          "payloadCrcAndTransferChecksums": true,
+          "slot1And512": true
+        }
+      ],
+      "unsupportedOrMalformedRejected": 19,
+      "asciiNameAndLength": true
+    },
+    "patchEngineBrowserGlobals": true
+  },
+  "firmwareMeterSimulator": {
+    "status": "PASS",
+    "firmware_sha256": "4bb845620fc5e382d5d962448a0375c7d4c14f837da8bfa821fd3a0d4d155fc0",
+    "payload_sha256": "f7c1c4c1e2f383800f727c2b80875c4ef1e49cc85b0c6ce0303d9329befa7627",
+    "unchanged_boot_records": true,
+    "heap_change_words": 0,
+    "changed_payload_bytes": 938,
+    "all_other_firmware_bytes_preserved": true,
+    "audio_comparison_words": 1024,
+    "audio_bit_exact": true,
+    "input_output_envelope_checks": 128,
+    "envelopes_exact": true,
+    "led_checks": 116,
+    "changed_bytes_from_meter_r1": 4,
+    "grid_cells_tested": 48,
+    "stock_next_effect_selects_nam": true,
+    "original_max_cycles": 102247,
+    "metered_max_cycles": 103246,
+    "maximum_cycle_increase": 999,
+    "cycle_increase_fraction_at_600MHz": 0.004995,
+    "display_pages": [
+      0,
+      1,
+      2
+    ],
+    "existing_controls_pixels_preserved": true,
+    "exit_restores_normal_meters": true,
+    "hardware_tested": false,
+    "limitations": "Direct production entry points; peripheral LED sender substituted with a recording sink; no full boot or hardware execution."
+  },
+  "editorStaticAndNativeChecks": {
+    "status": "PASS",
+    "output_sha256": "769cf68631c33b247f857a54bdd019338f3a482df218fca76ce742a1fd024296",
+    "stock_parameters_checked": 1230,
+    "stock_layouts_preserved": 39,
+    "nam_controls": 10,
+    "archive_entries": 439,
+    "all_other_assets_unchanged": true,
+    "changes_confined_to_manifest": true,
+    "ASLR_DEP_flags_preserved": true,
+    "nam_icons_verified": [
+      "block_nam.png",
+      "block_nam_bypass.png",
+      "icon_nam.png"
+    ],
+    "native_probe": "PASS: native x86 mapping checks at two relocated bases; assertions=13011",
+    "GUI_tested": false,
+    "hardware_tested": false,
+    "limitation": "Live panel rendering and MIDI round-trip still need testing."
+  },
+  "completeReleaseHardwareAcceptance": false,
+  "hardwareLimitation": "Earlier NAM iterations have user-reported hardware success. The exact combined preview, including the meter R2 correction, still requires hardware acceptance testing.",
+  "offlineToolsBrowserChecks": {
+    "tested": true,
+    "browser": "Isolated headless Chrome 153.0.8010.53",
+    "localFileUrls": true,
+    "networkBlocked": true,
+    "converterDownloadByteExact": true,
+    "unsupportedCaptureRejected": true,
+    "emptySelectionsRejected": true,
+    "incorrectOriginalRejected": true,
+    "patchDownloads": [
+      {
+        "id": "firmware",
+        "outputDownloadSha256Matches": true
+      },
+      {
+        "id": "editor",
+        "outputDownloadSha256Matches": true
+      }
+    ],
+    "narrowLayoutNoOverflow": true,
+    "pageErrors": [],
+    "deviceOrMidiAccess": false
+  },
+  "distributionAudit": {
+    "allowedExtensionsOnly": true,
+    "completeVendorFirmwareIncluded": false,
+    "completeVendorEditorIncluded": false,
+    "extraCaptureFilesIncluded": false,
+    "privateWorkspacePathsIncluded": false
+  }
+}

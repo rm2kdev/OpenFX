@@ -1,0 +1,52 @@
+{
+  "format": "BPS",
+  "generator": "ROM Patcher JS",
+  "upstream": "https://github.com/marcrobledo/RomPatcher.js",
+  "commit": "3183884086825c3a57c72026234debcef1e2240c",
+  "files": [
+    {
+      "id": "firmware",
+      "sourceName": "AxeFx2_XL_Ares_2p00.syx",
+      "sourceBytes": 3659875,
+      "sourceSha256": "24daabbadbf804b4a089cdd29f822bdb651f2011a96990bf7a068277436c8243",
+      "sourceCrc32": "baa1ae95",
+      "outputName": "AxeFx2_XL_Open_3p00.NAM-DROP-CYLON-ENS-METERS-R2.syx",
+      "outputBytes": 3888385,
+      "outputSha256": "4bb845620fc5e382d5d962448a0375c7d4c14f837da8bfa821fd3a0d4d155fc0",
+      "outputCrc32": "f8b87e1b",
+      "patchName": "OpenFX-3.00-XL-Preview-R2.bps",
+      "patchBytes": 104210,
+      "patchSha256": "8d74563e44a0ff110d740a99e12a52c6e8410d310baed982c042a8f36fae2f08",
+      "actionBytes": {
+        "0": 2752678,
+        "1": 12835,
+        "2": 941995,
+        "3": 180877
+      },
+      "roundTripExact": true,
+      "wrongSourceRejected": true
+    },
+    {
+      "id": "editor",
+      "sourceName": "Axe-Edit.exe",
+      "sourceBytes": 14681712,
+      "sourceSha256": "c37d3cc5e46f86d6cf8f75c1712bc30321b6a01c174c3761549000312a646652",
+      "sourceCrc32": "97dbc4ab",
+      "outputName": "Axe-Edit-NAM-DROP-CYLON-ENS.exe",
+      "outputBytes": 22175232,
+      "outputSha256": "769cf68631c33b247f857a54bdd019338f3a482df218fca76ce742a1fd024296",
+      "outputCrc32": "85d20560",
+      "patchName": "Axe-Edit-3.15.0-Windows-OpenFX.bps",
+      "patchBytes": 1967807,
+      "patchSha256": "a41aea8deed02b57bd9786cdd82ebcff5b81af62b54e5cbe18083758c6b65fc9",
+      "actionBytes": {
+        "0": 14681339,
+        "1": 1899202,
+        "2": 5534313,
+        "3": 60378
+      },
+      "roundTripExact": true,
+      "wrongSourceRejected": true
+    }
+  ]
+}
