@@ -15,7 +15,7 @@ Created and led by **rm2kdev**, OPENFX is an independent project extending what 
 >
 > There may be bugs, crashes, failed boots, unexpected audio, compatibility problems, damaged hardware or lost/corrupted presets, captures and settings. Testing cannot guarantee that your device or data will be safe. Recovery is not guaranteed.
 >
-> **I, rm2kdev, am not responsible for damage, data loss or other issues resulting from installing or using OPENFX.** The project is supplied as-is, without warranty or any promise of reliability, fitness for purpose or ongoing support. This notice does not exclude rights or liabilities that cannot legally be excluded.
+> **I, rm2kdev, am not responsible for damage, data loss or other issues resulting from installing or using OPENFX.** The project is supplied as-is, without warranty or any promise of reliability, fitness for purpose or ongoing support. All liabilities are waived, you use this AT YOUR OWN RISK!!!.
 >
 > **Back up everything you care about before flashing.** Keep your original firmware and a recovery plan. Start at low volume with a simple preset, and do not depend on this preview as your only rig for a performance.
 
