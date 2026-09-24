@@ -19,6 +19,10 @@ Created and led by **rm2kdev**, OPENFX is an independent project extending what 
 >
 > **Back up everything you care about before flashing.** Keep your original firmware and a recovery plan. Start at low volume with a simple preset, and do not depend on this preview as your only rig for a performance.
 
+![OPENFX 3.00 splash screen running on an Axe-Fx II XL](Assets/openfx-on-axe-fx-ii-xl.jpg)
+
+*OPENFX 3.00 on rm2kdev's Axe-Fx II XL hardware.*
+
 ## Why OPENFX?
 
 The name **OPENFX** is about opening up the possibilities of this hardware. We have been able to liberate the Axe-Fx II from some of its original limitations and give it new capabilities, including NAM support, additional effects and a matching editor experience.
