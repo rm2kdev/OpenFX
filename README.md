@@ -197,9 +197,7 @@ Share the extracted release folder or its ZIP. Do not add your reconstructed fir
 
 ## Development and credits
 
-**OPENFX is created and led by rm2kdev.** The project direction, feature choices, hands-on hardware testing, listening evaluations and feedback that shaped each iteration come from rm2kdev. Bringing these additions to a working device has involved repeated investigation, implementation, testing and refinement.
-
-Development has received **heavy assistance from ChatGPT Codex Astra**, used as a tool and technical collaborator for implementation, tooling, debugging and verification. That assistance is part of the development process; it does not replace the human ownership, decisions and practical work behind the project.
+Development has received **heavy assistance from ChatGPT Codex Astra**, used as a tool and technical collaborator for implementation, tooling, debugging and verification.
 
 OPENFX also builds on the work of these projects and their contributors:
 
